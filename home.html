@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fresh Fruits Store</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f5fff7;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #43a047;
+      color: #fff;
+      padding: 28px 0 18px 0;
+      text-align: center;
+      font-size: 2.3em;
+      letter-spacing: 2px;
+      box-shadow: 0 2px 10px rgba(67, 160, 71, 0.10);
+    }
+    nav {
+      background: #388e3c;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      box-shadow: 0 2px 8px rgba(67, 160, 71, 0.07);
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.1em;
+      padding: 18px 0;
+      display: inline-block;
+      transition: color 0.2s, border-bottom 0.2s;
+      border-bottom: 2px solid transparent;
+      margin: 0 18px;
+    }
+    nav a:hover, nav a.active {
+      color: #c8e6c9;
+      border-bottom: 2px solid #c8e6c9;
+    }
+    .hero {
+      background: linear-gradient(90deg, #e8f5e9 60%, #c8e6c9 100%);
+      padding: 60px 0 40px 0;
+      text-align: center;
+    }
+    .hero-title {
+      font-size: 2.5em;
+      color: #2e7d32;
+      margin-bottom: 18px;
+      font-weight: bold;
+    }
+    .hero-desc {
+      font-size: 1.25em;
+      color: #388e3c;
+      margin-bottom: 30px;
+    }
+    .hero-btn {
+      background: #43a047;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 14px 36px;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: background 0.2s;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 2px 8px rgba(67, 160, 71, 0.10);
+    }
+    .hero-btn:hover {
+      background: #2e7d32;
+    }
+    .features-section {
+      max-width: 1100px;
+      margin: 40px auto 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+      justify-content: center;
+      padding: 0 24px;
+    }
+    .feature-card {
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 2px 14px rgba(67, 160, 71, 0.10);
+      padding: 28px 22px;
+      flex: 1 1 260px;
+      min-width: 260px;
+      text-align: center;
+      transition: box-shadow 0.2s;
+    }
+    .feature-card:hover {
+      box-shadow: 0 6px 28px rgba(67, 160, 71, 0.18);
+    }
+    .feature-icon {
+      font-size: 2.5em;
+      margin-bottom: 12px;
+      color: #43a047;
+    }
+    .feature-title {
+      font-size: 1.18em;
+      font-weight: bold;
+      color: #2e7d32;
+      margin-bottom: 8px;
+    }
+    .feature-desc {
+      color: #555;
+      font-size: 1em;
+    }
+    footer {
+      text-align: center;
+      color: #7cb342;
+      padding: 20px 0;
+      margin-top: 50px;
+      background: #f5fff7;
+      font-size: 1em;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Fresh Fruits Store
+  </header>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="fruit.html">Fruits</a>
+    <a href="about.html" class="active">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="cart.html">Cart</a>
+  </nav>
+  <div class="hero">
+    <div class="hero-title">Welcome to Fresh Fruits Store</div>
+    <div class="hero-desc">
+      Enjoy the freshest, handpicked fruits delivered right to your doorstep.<br>
+      Healthy living starts with healthy eating!
+    </div>
+    <a href="fruit.html" class="hero-btn">Shop Fruits</a>
+  </div>
+  <div class="features-section">
+    <div class="feature-card">
+      <div class="feature-icon">🍎</div>
+      <div class="feature-title">Wide Variety</div>
+      <div class="feature-desc">Choose from a wide range of seasonal and exotic fruits.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🚚</div>
+      <div class="feature-title">Fast Delivery</div>
+      <div class="feature-desc">Get your fruits delivered fresh and fast, right to your home.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🌱</div>
+      <div class="feature-title">Farm Fresh</div>
+      <div class="feature-desc">We source directly from trusted local farmers for the best quality.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">💳</div>
+      <div class="feature-title">Easy Payments</div>
+      <div class="feature-desc">Multiple payment options for a smooth shopping experience.</div>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 Fresh Fruits Store. All rights reserved.
+  </footer>
+</body>
